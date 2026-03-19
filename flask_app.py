@@ -18,8 +18,8 @@ app = Flask(__name__)
 # =========================
 # Email Configuration
 # =========================
-SENDER_EMAIL = "vksahu160805@gmail.com"
-SENDER_PASSWORD = "pnnc iumu spmx tyxc"  # Gmail App Password
+SENDER_EMAIL = "xyhf@gmail.com"
+SENDER_PASSWORD = "password"  # Gmail App Password
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
@@ -28,49 +28,19 @@ SMTP_PORT = 587
 # =========================
 # Map student names (same as image filenames in known_faces) to their details
 student_database = {
-    "vinay sahu": {
-        "email": "vksahu160805@gmail.com",
-        "full_name": "Vinay Kumar Sahu",
+    "vinay ": {
+        "email": "vksah@gmail.com",
+        "full_name": "Vinay ahu",
         "roll_number": "CS001",
         "phone": "+91-XXXXXXXXXX"
-    },
-    "chhatrapal dewangan": {
-        "email": "nikhildew2004@gmail.com", 
-        "full_name": "chhatrapal dewangan",
-        "roll_number": "CS002",
-        "phone": "+91-XXXXXXXXXX"
-    },
-    "tushar sahu": {
-        "email": "tusharsahujsp@gmail.com",
-        "full_name": "tushar sahu",
-        "roll_number": "CS003",
-        "phone": "+91-XXXXXXXXXX"
-    },
-    "shikhar sahu": {
-        "email": "shikharsahu.90@gmail.com",
-        "full_name": "shikhar sahu",
-        "roll_number": "CS004",
-        "phone": "+91-XXXXXXXXXX"
-    },
-    "chhatrapal patel": {
-        "email": "chhatrapalpatel1711@gmail.com",
-        "full_name": "chhatrapal patel",
-        "roll_number": "CS005",
-        "phone": "+91-XXXXXXXXXX"
-    },
-    "sanjana bhagat": {
-        "email": "sanjana2003b@gmail.com",
-        "full_name": "sanjana bhagat",
-        "roll_number": "CS006",
-        "phone": "+91-XXXXXXXXXX"
-    },
+    }
     # Add more students here following the same pattern
     # The key should match the filename in known_faces folder (without extension)
 }
 
 # Admin/Teacher email configuration
 ADMIN_EMAILS = [
-    "chhatrapaldewangan2004@gmail.com",  # Primary admin
+    "xyz@gmail.com",  # Primary admin
     # Add more admin emails here
 ]
 
